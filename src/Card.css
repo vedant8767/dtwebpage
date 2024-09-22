@@ -1,0 +1,100 @@
+.card {
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px;
+    width: 480px;
+    height: 580px;
+    position: relative;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    gap: 120px;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 2lpx;
+    
+  }
+  
+  .info-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .card-description {
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .card-description strong{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .card-content {
+    padding-top: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    /* width: 100%; */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .collapsible-section h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .collapsible-section p {
+    margin: 5px 0 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .see-more {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .example-section h4 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .example-section p {
+    font-size: 14px;
+    color: #666;
+  }
+  
